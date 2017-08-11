@@ -61,7 +61,7 @@ const filter = (elements, cb) => {
 const flatten = (elements) => {
   // Flattens a nested array (the nesting can be to any depth).
   // Example: flatten([1, [2], [3, [[4]]]]); => [1, 2, 3, 4];
-  //Want to take the array of arrays and find the number
+  // Want to take the array of arrays and find the number
   const newArray = [];
   for (let i = 0; i < elements.length; i++) {
     if (typeof elements[i] === 'number') {
